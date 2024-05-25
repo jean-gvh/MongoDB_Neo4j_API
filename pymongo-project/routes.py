@@ -1,8 +1,8 @@
-from fastapi import FastAPI, APIRouter, Body, Request, Response, HTTPException, status
+from fastapi import APIRouter, Request, HTTPException
 from fastapi.encoders import jsonable_encoder
 from typing import List 
 
-from models import Movie, MovieUpdate, MovieNeo4j, Person, PersonMovieReview
+from models import Movie, MovieUpdate, PersonMovieReview
 
 router = APIRouter() 
 
