@@ -41,7 +41,7 @@ pip install requirements.txt
 At this point you should have : a venv activated with all python packages installed in it.
 
 4. cd into the main project location.
-5. run the gunicorn server by running :  
+5. Run the gunicorn server by running :  
 ``` bash 
 python -m uvicorn main:app --reload
 ```
