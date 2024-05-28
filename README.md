@@ -36,7 +36,7 @@ python -m venv env_name
 2. Activate the venv by cd into the env_name folder and then run : .\Scripts\Activate.ps1
 3. Install all the necessary :
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 At this point you should have : a venv activated with all python packages installed in it.
 
