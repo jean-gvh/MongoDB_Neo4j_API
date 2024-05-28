@@ -18,12 +18,7 @@ git clone https://github.com/jean-gvh/final-lab.git
 ```
 
 ### Set up the MongoDb Database
-Once you have created your account, created your project and choosen the freetier option for your atlas cluster, do these steps in order have the right set up.
-Use the mongoimport CLI tool to import the Movie JSON document in the repo. with the following command.
-
-
-mongoimport --uri 
-mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_NAME>/<DATABASE> --collection <COLLECTION> --type json --file /your-project-dirctory/Movies.json 
+Once you have created your account, created your project and choosen the freetier option for your atlas cluster.
 
 
 ### Set up the Python environment
