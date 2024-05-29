@@ -40,7 +40,7 @@ At this point you should have : a venv activated with all python packages instal
 ``` bash 
 python -m uvicorn main:app --reload
 ```
-6. go to your brower and copy this into it : localhost:8000/docs. You should see a page with all the routes set up
+6. Go to your brower and copy this into it : localhost:8000/docs. You should see a page with all the routes set up
 
 
 # GG you can now interact with the API's and test the routes !
